@@ -1,0 +1,372 @@
+/* Fonts 
+font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif;
+
+*/
+
+:root {
+  --spacer: 3rem;
+  --box-shadow: 0.3rem 0.3rem 1.5rem rgb(0, 0, 0, 0.15);
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+/* Utilities */
+ul[class],
+ol[class] {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flow-content > * + * {
+  margin-top: var(--flow-spacer, var(--spacer));
+}
+/* Start Here */
+
+/* Header Styles */
+/* Fonts */
+body {
+  font-family: 'Creepster', cursive;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, hsl(0, 0%, 0%), hsl(300, 100%, 25%), hsl(240, 69%, 28%), hsl(0, 0%, 0%), hsl(16, 100%, 50%));
+  -webkit-background-clip: text; 
+  color: transparent;
+}
+
+nav p {
+  font-weight: bold;
+  background: linear-gradient(to bottom, hsl(0, 100%, 50%), hsl(0, 0%, 100%));
+  -webkit-background-clip: text; 
+  color: transparent;
+  font-size: 30px;
+  padding: 20px;
+}
+
+nav ul {
+  background: linear-gradient(to bottom, hsl(0, 100%, 50%), hsl(0, 0%, 100%));
+  -webkit-background-clip: text; 
+  color: transparent;
+  font-weight: bold;
+  font-size: 25px;
+  list-style: none;
+  justify-content: end;
+  gap: 50px;
+  margin-right: 70px;
+  display: flex;
+}
+
+nav a {
+  background: linear-gradient(to bottom, hsl(0, 100%, 50%), hsl(0, 0%, 100%));
+  -webkit-background-clip: text; 
+  color: transparent;
+  font-weight: bold;
+}
+
+/* Hero Section Styles */
+.hero {
+  background: linear-gradient(to bottom, hsl(0, 100%, 50%), hsl(0, 0%, 100%));
+  -webkit-background-clip: text; 
+  color: transparent;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+
+section.hero img {
+  width: 500px;
+  height: 300px;
+  margin-left: 1000px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: none;
+}
+
+.hero h1 {
+  background: linear-gradient(to bottom, hsl(0, 100%, 50%), hsl(0, 0%, 100%));
+  -webkit-background-clip: text; 
+  color: transparent;
+  font-size: 70px;
+  font-style: oblique;
+  margin-left: 170px;
+}
+
+.hero h2 {
+  font-size: 35px;
+  margin-bottom: 10px;
+  margin-left: 90px;
+}
+
+.hero a {
+  border: hsl(350, 100%, 88%) solid 1px;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 340px;
+  padding: 10px 20px;
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(350, 100%, 88%);
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+/* Stories Section Styles */
+.stories h4 {
+  background: linear-gradient(to bottom, hsl(0, 100%, 50%), hsl(0, 0%, 100%));
+  -webkit-background-clip: text; 
+  color: transparent;
+  font-size: 35px;
+  margin-left: 620px;
+}
+
+.stories div {
+  color: hsl(350, 100%, 88%);
+  display: flex;
+  font-size: 18px;
+}
+
+.stories div p {
+  color: hsl(350, 100%, 88%);
+  margin-left: 5px;
+
+}
+
+section.stories p {
+  padding-top: 80px;
+  width: 300px;
+  height: 500px;
+}
+
+.stories h3 {
+  font-style: oblique;
+  font-size: 25px;
+  background: linear-gradient(to bottom, hsl(0, 0%, 100%), hsl(0, 100%, 50%), hsl(0, 0%, 100%), hsl(0, 100%, 50%), hsl(0, 0%, 100%), hsl(0, 100%, 50%) ,hsl(0, 0%, 100%));
+  -webkit-background-clip: text; 
+  color: transparent;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.stories p {
+  text-align: justify;
+  margin-right: 10px;
+}
+
+.stories div figure {
+  margin-right: 10px;
+  margin-top: 50px;
+}
+
+section.stories img {
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 300px;
+  height: 300px;
+}
+
+/* Authors Section Styles */
+.authors h5 {
+  background: linear-gradient(to bottom, hsl(0, 100%, 50%), hsl(0, 0%, 100%));
+  -webkit-background-clip: text; 
+  color: transparent;
+  font-size: 35px;
+  margin-left: 650px;
+}
+
+.authors div figure { /* authors */
+  margin-bottom: 20px;
+  padding-left: 300px;
+}
+
+.authors h3 {
+  background: linear-gradient(to bottom, hsl(0, 100%, 50%), hsl(0, 0%, 100%));
+  -webkit-background-clip: text; 
+  color: transparent;
+  font-size: 23px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.authors h4 {
+  background: linear-gradient(to bottom, hsl(0, 100%, 50%), hsl(0, 0%, 100%));
+  -webkit-background-clip: text; 
+  color: transparent;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.authors p {
+  color: hsl(350, 100%, 88%);
+  font-size: 18px;
+  justify-content: right;
+  margin-top: 10px;
+}
+
+section.authors p {
+  width: 1050px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.authors h6 {
+  color: hsl(350, 100%, 88%);
+  font-size: 18px;
+  margin-top: 8px;
+  font-weight: lighter;
+
+}
+
+section.authors h6 {
+  width: 1050px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+/* Footer Styles */
+
+footer h1 {
+  background: linear-gradient(to bottom, hsl(0, 100%, 50%), hsl(0, 0%, 100%));
+  -webkit-background-clip: text; 
+  color: transparent;
+}
+
+footer {
+  background-color: rgb(55, 9, 55);
+  color: hsl(350, 100%, 88%);
+  font-size: 15px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Halloween-themed Fonts (Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  section.hero img {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .hero h1 {
+    margin-left: 0;
+    font-size: 40px;
+  }
+
+  .hero h2 {
+    margin-left: 0;
+    font-size: 25px;
+  }
+
+  .hero a {
+    margin-left: 0;
+  }
+
+  .stories h4 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  section.stories img {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .stories div {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .stories div figure {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .stories h3 {
+    margin-top: 10px;
+  }
+
+  .stories p {
+    padding-top: 20px;
+  }
+
+  .authors div figure {
+    padding-left: 0;
+  }
+  
+  .authors h3 {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  section.authors p {
+    width: auto;
+  }
+
+  .authors h4 {
+    margin-left: 0;
+  }
+
+  .authors h6 {
+    margin-top: 5px;
+}
+
+.authors div {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.authors div figure {
+  margin-right: 0;
+  margin-top: 20px;
+}
+
+.authors h3 {
+  margin-left: 0;
+  margin-top: 10px;
+}
+
+.authors p {
+  padding-top: 20px;
+}
+
+.authors h4 {
+  margin-left: 0;
+}
+
+}
